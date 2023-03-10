@@ -4,7 +4,9 @@
   "description": "Restaurant Webpage project for The Odin Project, focusing on DOM manipulation via dynamic rendering",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch", 
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
