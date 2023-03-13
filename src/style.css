@@ -28,6 +28,8 @@ li {
     text-align: center;
 }
 
+/*HEADER*/
+
 #header--main {
     font-size: 4rem;
     margin: 0;
@@ -45,6 +47,8 @@ li {
     gap: 30px; 
     padding-bottom: 2rem;
 }
+
+/*ABOUT*/
 
 #about--main {
     font-size: 1.5rem; 
@@ -67,3 +71,33 @@ li {
     font-size: medium;
     width: 50vh;
 }
+
+/*MENU*/
+
+#menu--container {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+}
+
+.menu--item {
+    background-image: url('../src/med-one1.png');
+    border: 2px solid var(--white); 
+    border-radius: 8px; 
+    width: 30vw; 
+    height: 40vh;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%; 
+    text-align: center;
+    overflow: auto; 
+}
+
+
+
+
+
