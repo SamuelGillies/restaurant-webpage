@@ -1,6 +1,6 @@
 export default function header() {
 
-    const element = document.getElementById('content'); 
+    const element = document.getElementById('header--root'); 
 
     const header = document.createElement('section'); 
     header.setAttribute('id','header'); 
