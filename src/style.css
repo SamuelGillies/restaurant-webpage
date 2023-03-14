@@ -97,7 +97,15 @@ li {
     overflow: auto; 
 }
 
+/*CONTACT*/
 
+#contact--details {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-
-
+#contact--details > p {
+    margin: 0;
+}
