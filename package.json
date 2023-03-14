@@ -20,6 +20,7 @@
   "homepage": "https://github.com/SamuelGillies/restaurant-webpage#readme",
   "devDependencies": {
     "css-loader": "^6.7.3",
+    "prettier": "^2.8.4",
     "style-loader": "^3.3.2",
     "webpack": "^5.76.0",
     "webpack-cli": "^5.0.1"

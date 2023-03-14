@@ -4,7 +4,6 @@ import menu from './menu.js';
 import contact from './contact.js'; 
 import clear from './clear.js'; 
 import './style.css'; 
-import image from './med-one1.png'; 
 
 document.body.appendChild(header());
 document.body.appendChild(about());
