@@ -1,3 +1,5 @@
+import image from './med-one1.png'; 
+
 export default function about() {
 
     const element = document.getElementById('content'); 
@@ -19,11 +21,11 @@ export default function about() {
     aboutContent.appendChild(aboutInfoBlock); 
     aboutInfoBlock.setAttribute('id','about--infoblock');
 
-    const aboutImage = document.createElement('img');
-    aboutInfoBlock.appendChild(aboutImage);  
+    const aboutImage = new Image(); 
+    aboutImage.src = image; 
+    aboutInfoBlock.appendChild(aboutImage);
     aboutImage.setAttribute('id','about--image');
-    aboutImage.setAttribute('src','../src/med-one1.png');
-
+  
     const aboutText = document.createElement('p'); 
     aboutInfoBlock.appendChild(aboutText); 
     aboutText.setAttribute('id','about--text');
